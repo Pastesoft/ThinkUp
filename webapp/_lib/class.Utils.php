@@ -244,7 +244,7 @@ class Utils {
      * @return bool Whether or not it's a valid address
      */
     public static function validateEmail($email = '') {
-        return filter_var($email, FILTER_VALIDATE_EMAIL));
+        return filter_var($email, FILTER_VALIDATE_EMAIL);
     }
 
     /**
